@@ -6,11 +6,11 @@ const firstWord = prompt('inserisci prima parola')
 const secondWord = prompt('inserisci seconda parola')
 
 if (firstWord.length > secondWord.length) {
-    console.log(firstWord + 'è la parola piu lunga');
     console.log(secondWord + 'è la parola piu corta');
+    console.log(firstWord + 'è la parola piu lunga');
 } else if (firstWord.length < secondWord.length) {
-    console.log(secondWord + 'è la parola piu lunga');
     console.log(firstWord + 'è la parola piu corta');
+    console.log(secondWord + 'è la parola piu lunga');
 } else {
     console.log('le due parole sono lunghe uguali');
 }
