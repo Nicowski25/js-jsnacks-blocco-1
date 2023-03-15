@@ -14,23 +14,28 @@ let invite = false;
 
 let i = 0;
 
-for (let i = 0; i < invitati.length; i++) {
+/* for (let i = 0; i < invitati.length; i++) {
     if(invitati[i] == nome) {
-        let invite = true
-    }
+        let invite = true;
+    } 
 }
 
 if(invite == true) {
     console.log('sei tra gli invitati');
 } else {
     console.log('non sei tra gli invitati');
-}
+} */
 
 while (i < invitati.length) {
-    if (invitati[i] == nome) {
-        console.log('nome nella lista');
-    } else {
-        console.log('nome non nella lista');
+    const invitatiEl = invitati[i]
+    if (invitatiEl === nome) {
+        invite = true
     }
     i++
+}
+
+if(invite = true) {
+    console.log('sei invitato');
+} else {
+    console.log('non sei invitato');
 }
