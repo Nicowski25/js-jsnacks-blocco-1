@@ -20,7 +20,7 @@ for (let i = 0; i < invitati.length; i++) {
     }
 }
 
-if(invite = true) {
+if(invite == true) {
     console.log('sei tra gli invitati');
 } else {
     console.log('non sei tra gli invitati');
